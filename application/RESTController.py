@@ -55,10 +55,10 @@ def get_paginated(filter, sort, page):
     return out
 
 if __name__ == "__main__":
-    for _ in range(15):
-        data = {}
-        vm = VM()
-        vm.create(data)
-        service.add_vm(vm)
+    # for _ in range(15):
+    #     data = {}
+    #     vm = VM()
+    #     vm.create(data)
+    #     service.add_vm(vm)
     app.run()
 

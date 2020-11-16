@@ -1,5 +1,3 @@
-# connect to DB
-
 import random
 
 ids = [1]

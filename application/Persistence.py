@@ -33,4 +33,6 @@ class Persistence:
         return None
 
     def get_next_id(self):
+        if len(self._vms.keys()) == 0:
+            return 1
         return max(self._vms.keys()) + 1
